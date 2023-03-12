@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#idCanvas{
+    position:absolute;
+}
+
+#idImage1{
+    display:none;
+}
+.clsControls{
+    position:absolute;
+    z-index: 100;
+}
+button{
+    padding:10px;
+    margin:20px;
+    font-size:40px;
+    font-family: 'Bangers', cursive;   
+    color:white;
+    background:linear-gradient(#000, rgb(122, 31, 31));
+    transition:0.2s;
+}
+button:hover{ 
+    color:rgb(122, 31, 31);
+    background:white;
+}
