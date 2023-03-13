@@ -88,7 +88,7 @@ class clsShow{
         this.gap =0;
         this.movingPixelCount=0;
         this.mouse = {
-            radius:20000,
+            radius:100000,
             position:vec2.create()
         };
         window.addEventListener('mousemove', event => this.mouse.position = vec2.fromValues(event.x, event.y));
